@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  dtd is given by browser searched by xml schema based configuration
+ -->
+ <beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean class="com.sit.model.Student" id="stu">
+    		<property name="rollno" value="101"></property>
+    		<property name="name" value="Rutika"></property>
+    		<property name="addr" value="Kolhapur"></property>
+    		<property name="email" value="rutu@gmail.com"></property>
+     </bean>
+
+</beans>
+
